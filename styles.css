@@ -14,3 +14,40 @@ div#page-content {
     margin: 0 auto;
     display: flex;
 }
+
+#logo-and-background {
+    position: relative;
+    width: 40%;
+    background-image: url("./wil-stewart-T26KCgCPsCI-unsplash.jpg");
+    background-size: cover;
+}
+
+#logo {
+    position: absolute;
+    top: 7.5rem;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 30%);
+}
+
+#logo img {
+    width: 75px;
+}
+
+.logo-text {
+    font-size: 4rem;
+    font-family: "Lora", serif;
+    font-weight: 900;
+    color: #f3f7f8;
+}
+
+#credit {
+    position: absolute;
+    width: 100%;
+    bottom: 1.5rem;
+    text-align: center;
+    color: #f3f7f8;
+}
