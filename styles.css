@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #2b505e;
+}
+
+div#page-content {
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
